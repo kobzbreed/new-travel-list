@@ -1,0 +1,25 @@
+.stats {
+  background-color: #76c7ad;
+  text-align: center;
+  font-weight: 700;
+  padding: 3.2rem 0;
+}
+
+@media screen and (max-width: 480px) {
+  .stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 2.3rem;
+  }
+}
